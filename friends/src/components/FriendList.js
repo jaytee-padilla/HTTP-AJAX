@@ -13,7 +13,7 @@ export default class FriendList extends Component {
 	componentDidMount() {
 		axios
 			.get('http://localhost:5000/friends')
-			.then(response => this.setState( {friends: response.data}))
+			.then(response => this.setState({friends: response.data}))
 			.catch(error => console.log(error));
 	}
 
