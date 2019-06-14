@@ -1,6 +1,11 @@
+.friend-list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .friend {
-	width: 50%;
-	margin: 0 auto;
+	width: 500px;
 	margin: 10px auto;
 	border: 1px solid darkgrey;
 	border-radius: 5px;
